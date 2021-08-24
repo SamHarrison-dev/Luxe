@@ -1,0 +1,9 @@
+.navigationIcons {
+    height: 3rem;
+}
+
+.iconRight {
+    padding-right: 2rem;
+    cursor: pointer;
+
+}

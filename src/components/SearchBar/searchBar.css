@@ -1,0 +1,25 @@
+
+.searchInput {
+    position: absolute;
+    height: 3rem;
+    width: 20rem;
+    border: none;
+    border-bottom: 0.1rem solid black;
+    padding: 0.2rem;
+    text-align: center;
+    font-size: 1rem;
+    float: left;
+    outline: none;
+
+}
+
+.searchIcon {
+    float:left;
+    position: relative;
+    margin-top: 0.8rem;
+}
+
+.searchInput[type=text]{
+    font-size: 1.8rem;
+    font-family: 'Cormorant', serif;
+}

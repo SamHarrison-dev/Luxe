@@ -1,0 +1,150 @@
+.collectionDropContainer {
+    width: 100%;
+    display: flex;
+    padding-top: 2rem;
+    height: 40rem;
+    border-top: thin solid #ccced0;
+    position: fixed;
+    z-index: 999;
+    background-color: white;
+    margin-top: 4.6rem;
+
+}
+
+.luxeCollection {
+    bottom: 0;
+    position: absolute;
+    margin-bottom: 1.5rem;
+    font-family: 'Cormorant', serif;
+    font-size: 2.2rem;
+    opacity: 0.5;
+    cursor: pointer;
+    vertical-align: baseline;
+    left: 35%;
+    
+}
+.fall {
+    bottom: 0;
+    position: absolute;
+    margin-bottom: 1.5rem;
+    font-family: 'Cormorant', serif;
+    font-size: 2.2rem;
+    opacity: 0.5;
+    cursor: pointer;
+    vertical-align: baseline;
+    left: 55%;
+    
+}
+.winter {
+    bottom: 0;
+    position: absolute;
+    margin-bottom: 1.5rem;
+    font-family: 'Cormorant', serif;
+    font-size: 2.2rem;
+    opacity: 0.5;
+    cursor: pointer;
+    left: 25%;
+
+}
+
+
+.fallContainer {
+    position: relative;
+    height: 80%;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 1rem;  
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    flex-shrink: 1;
+    float: right;
+}
+.luxeContainer{
+    position: relative;
+    height: 80%;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 1rem;  
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    flex-shrink: 1;
+
+}
+.winterContainer {
+    position: relative;
+    height: 80%;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 1rem;  
+    justify-content: center;
+    overflow: hidden;
+    flex-shrink: 1;
+    float: left;
+}
+
+.fallContainer img {
+    max-height: 100%;
+    max-width: 100%;
+    transition: transform 2.5s ease;
+    width: 100%;
+}
+.fallContainer img:hover {
+    transform: scale(1.1);
+}
+.winterContainer img {
+    max-height: 100%;
+    max-width: 100%;
+    transition: transform 2.5s ease;
+    width: 100%;
+    object-fit: cover;
+}
+.winterContainer img:hover {
+    transform: scale(1.1);
+}
+.luxeContainer img {
+    max-height: 100%;
+    max-width: 100%;
+    transition: transform 2.5s ease;
+    width: 100%;
+    object-fit: cover;
+}
+.luxeContainer img:hover {
+    transform: scale(1.1);
+}
+
+
+.collectionOne {
+    position: relative;
+    flex: 4;
+    height: 100%;
+}
+.collectionTwo{
+    position: relative;
+    flex: 4;
+    height: 100%;
+}
+.collectionThree{
+    position: relative;
+    flex: 4;
+    height: 100%;
+
+}
+
+
+
+@media only screen and (max-width: 1385px) {
+    .collectionDropContainer {
+        width: 100%;
+        display: flex;
+        padding-top: 2rem;
+        height: 40rem;
+        border-top: thin solid #ccced0;
+        position: fixed;
+        z-index: 999;
+        background-color: white;
+        margin-top: 5.3rem;
+    
+    }
+}

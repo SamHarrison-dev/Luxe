@@ -1,0 +1,31 @@
+.CoatOne, .CoatTwo, .CoatThree, .CoatFour {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    flex: 3;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+.coatText {
+    margin-top: 1.5rem;
+    font-size: 2rem;
+    font-family: 'Cormorant', serif;
+    opacity: 0.6;
+}
+
+.coatPrice {
+    margin-top: 0.2rem;
+    font-size: 1.4rem;
+}
+
+.CoatOneImage, .CoatTwoImage, .CoatThreeImage, .CoatFourImage {
+    width: 80%;
+    margin: 0 auto;
+    object-fit: contain;
+    margin-top: 1rem;
+
+}

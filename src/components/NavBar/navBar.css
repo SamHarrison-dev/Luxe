@@ -1,0 +1,62 @@
+.navBarContainer {
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    background-color: white;
+    margin-bottom: auto;
+}
+
+.leftBar {
+    height: 100%;
+    margin: auto;
+    flex: 3.5;
+    
+}
+
+
+.centerBar {
+    flex: 5;
+    width: 100%;
+    text-align: center;
+}
+
+.logo a {
+    text-decoration: none;
+    color: black;
+    font-size: 5rem;
+    font-weight: 400;
+}
+
+.rightBar {
+    flex: 3.5;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.searchBarContainer {
+
+    flex: 7;
+    height: 100%;
+    width: 100%;
+    margin-right: 3rem;
+}
+
+.navBarIconsContainer{
+    flex: 5;
+    height: 100%;
+    padding-left: 2rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+@media only screen and (max-width: 1378px) {
+    .leftBar {
+        padding-left: 7rem;
+    }
+}
