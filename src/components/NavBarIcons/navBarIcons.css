@@ -7,3 +7,13 @@
     cursor: pointer;
 
 }
+
+@media only screen and (max-width: 378px) {
+
+    .iconRight{
+        padding-right: 1rem;
+    }
+
+    
+
+}

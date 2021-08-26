@@ -9,7 +9,7 @@
     position: fixed;
     z-index: 999;
     background-color: white;
-    margin-top: 4.6rem;
+    margin-top: 5.7rem;
 }
 
 /* discover and collections title */
@@ -131,6 +131,6 @@
         position: fixed;
         z-index: 999;
         background-color: white;
-        margin-top: 5.3rem;
+        margin-top: 10.5rem;
     }
 }

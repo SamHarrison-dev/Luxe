@@ -29,3 +29,15 @@
     margin-top: 1rem;
 
 }
+
+@media only screen and (max-width: 378px) {
+    .CoatOne, .CoatTwo, .CoatThree, .CoatFour {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        flex: auto;
+        margin-bottom: 1rem;
+    }
+
+
+}

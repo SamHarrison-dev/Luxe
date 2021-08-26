@@ -14,7 +14,12 @@
     height: 100%;
     margin: auto;
     flex: 3.5;
+    transform: translateY(-2.5rem);
     
+}
+
+.menuIcon {
+    visibility: hidden;
 }
 
 
@@ -54,9 +59,68 @@
     justify-content: space-around;
 }
 
+.menuSpanHidden {
+    visibility: hidden;
+}
+
 
 @media only screen and (max-width: 1378px) {
     .leftBar {
         padding-left: 7rem;
     }
+}
+
+@media only screen and (max-width: 378px) {
+   
+    
+        .navBarContainer {
+            height: auto;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            position: fixed;
+            top: 0;
+            z-index: 999;
+            background-color: white;
+            margin-bottom: auto;
+        }
+    
+
+
+        .leftBar {
+             padding: 0;
+             width: 10%;
+             transform: translateY(0);
+             display: flex;
+             align-items: center;
+             
+        }    
+         .leftBar ul {
+             visibility: hidden;
+         }
+
+         .logo a {
+             font-size: 4rem;
+         }
+
+         .searchBarContainer{
+             visibility: hidden;
+         }
+         
+         .rightBar {
+             display: inline-block;
+         }
+
+         .navBarIconsContainer {
+             padding: 0;
+             display: flex;
+             justify-content: flex-end;
+         }
+
+         .menuIcon {
+             visibility: visible;
+             margin: 0 auto;
+             padding-left: 1.5rem;
+         }
+         
 }

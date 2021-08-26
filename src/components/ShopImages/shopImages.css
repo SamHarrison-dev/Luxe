@@ -106,7 +106,6 @@ button {
     flex-wrap: wrap;
     margin-top: 1rem;
     margin-bottom: 9rem;
-
 }
 
 .footerImage {
@@ -120,4 +119,33 @@ button {
     height: 100%;
     object-fit: cover;
     opacity: 0.7;
+}
+
+
+@media only screen and (max-width: 378px) {
+    .footerImage {
+        height: 30rem;
+    }
+
+    .coatContainer {
+        display: flex;
+        flex-wrap: wrap;
+        height: auto;
+        width: 100%;
+        margin-bottom: 0;
+    }
+
+    .shopCollectionButton {
+        margin-top: 2rem;
+        margin-bottom: 5rem;
+    }
+    .dressContainer {
+        display: flex;
+        flex-wrap: wrap;
+        height: auto;
+        width: 100%;
+        margin-bottom: 0;
+        margin-top: -15rem;
+    }
+
 }

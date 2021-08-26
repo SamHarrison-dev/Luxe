@@ -8,7 +8,6 @@
     padding: 0.2rem;
     text-align: center;
     font-size: 1rem;
-    float: left;
     outline: none;
 
 }
@@ -22,4 +21,10 @@
 .searchInput[type=text]{
     font-size: 1.8rem;
     font-family: 'Cormorant', serif;
+}
+
+@media only screen and (max-width: 378px) {
+    .searchIcon, .searchInput {
+        visibility: hidden;
+    }
 }

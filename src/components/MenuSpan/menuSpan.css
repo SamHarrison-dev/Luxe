@@ -1,0 +1,81 @@
+
+@media only screen and (max-width: 1385px){
+
+    .menuSpanContainer {
+        position: fixed;
+        z-index: 999;
+        width: 70%;
+        background-color: black;
+        opacity: 0.7;
+        height: 100%;
+        margin-top: 10.6rem;
+        display: flex;
+        flex-direction: column;
+          
+    }
+
+    .shopAllContainer {
+        color: white;
+        padding-top: 2rem;
+    }
+
+    .shopAll {
+        color: white;
+        font-size: 3rem;
+        font-family: 'Cormorant', serif;
+        margin-left: 2rem;
+
+    }
+    .shopAllList {
+        display: flex;
+        width: auto;
+
+    }
+
+    .shopAllList ul li {
+        display: flex;
+        flex-direction: column;
+        color: white;
+        font-size: 2rem;
+        font-family: 'Cormorant', serif;
+        margin-left: 2rem;
+        padding: 1rem;
+    }  
+    a {
+        text-decoration: none;
+    }
+   
+    .collectionContainer {
+        color: white;
+        padding-top: 2rem;
+    }
+
+    .collections {
+        color: white;
+        font-size: 3rem;
+        font-family: 'Cormorant', serif;
+        margin-left: 2rem;
+    }
+
+    .collectionList ul li {
+        text-decoration: none;
+        font-size: 2rem;
+        font-family: 'Cormorant', serif;
+        margin-left: 2rem;
+        padding: 1rem;
+        list-style: none;
+
+    }
+    .galleryContainer, .aboutContainer {
+        padding-top: 2rem;
+    }
+
+    .gallery, .about {
+        color: white;
+        font-size: 3rem;
+        font-family: 'Cormorant', serif;
+        margin-left: 2rem;
+    }
+
+
+}   
