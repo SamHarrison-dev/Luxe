@@ -10,7 +10,7 @@ export const NavBarIcons = () => {
         <div className="navigationIcons">
 
             <FavoriteIcon className="iconRight" style={{ fontSize: '3rem' }} />
-            <ShoppingCartIcon className="iconRight" style={{ fontSize: '3rem' }} />
+            <ShoppingCartIcon className="iconRightCart" style={{ fontSize: '3rem' }} />
 
         </div>
     )

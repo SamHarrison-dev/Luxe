@@ -30,7 +30,7 @@
 
 }
 
-@media only screen and (max-width: 378px) {
+@media only screen and (max-width: 420px) {
     .CoatOne, .CoatTwo, .CoatThree, .CoatFour {
         display: flex;
         flex-direction: column;

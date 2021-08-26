@@ -47,7 +47,7 @@ hr {
 }
 
 
-@media only screen and (max-width: 378px) {
+@media only screen and (max-width: 420px) {
     
     .sustainableImage, .sustainablePicture {
         visibility: hidden;
